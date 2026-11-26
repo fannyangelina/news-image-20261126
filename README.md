@@ -1,26 +1,32 @@
-# Thursday 26 November 2026 — The World in One Day
+# The World in One Page — news-image-20261126 (v4)
 
-[![make.fun · news-image-20261126](https://make.fun/badge/news-image-20261126.svg)](https://make.fun/bounty/news-image-20261126?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126)
-[![rank](https://make.fun/badge/news-image-20261126/fannyangelina/news-image-20261126/rank.svg)](https://make.fun/bounty/news-image-20261126/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126)
-[![reward](https://make.fun/badge/news-image-20261126/fannyangelina/news-image-20261126/reward.svg)](https://make.fun/bounty/news-image-20261126?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126)
+One 1024&times;1024 image summing up Thursday 26 November 2026's world news:
+3 hero stories, 6 mid stories, 26 briefs — 35 stories in total — plus a
+CLAIMED vs CONFIRMED box, a compact world map with numbered pins, a UTC
+timeline (all entries dated 26 Nov), an itemised DATE CHECK of stories
+deliberately left out because they happened earlier, and a sources footer
+with a region tally that sums exactly to 35.
 
-One image summing up Thursday 26 November 2026's world news — 37 stories across 8 regions.
+## Facts, verified
 
-## What's on the page
+- Nasdaq ends &minus;0.6% after falling 4.5% intraday; Nvidia &minus;3.9% at the
+  close after &minus;9% intraday; Dow +0.3%; hot PCE 3.8%; Trump proposes
+  tariffs on 14 partners. (Market moves are closing levels unless marked
+  intraday.)
+- Huawei guilty on 10 of 12 counts (Brooklyn jury: trade-secret theft, bank
+  fraud, Iran sanctions). 76 hostages freed in Cartagena after a 17-hour
+  &Eacute;xito siege. US tells citizens to leave Iran now.
+- Left out on purpose (earlier days): COP31 ends with no deal (22 Nov),
+  Huang reinstated as Nvidia CEO (23 Nov), Shenzhou-24 docks (25 Nov),
+  Shanghai party chief Chen probed (24 Nov).
 
-- **Giant masthead date** — Thursday 26 November 2026 — with an italic deck naming the three top stories and a region tally that adds up exactly to 37.
-- **3 hero stories**: Houthis claim a strike on a Saudi oil hub (CLAIM, NOT CONFIRMED); a Rosstat leak puts Russian soldiers killed at 490,334 (LEAK, KREMLIN DENIES); the Nasdaq recovers most of a 4.5% plunge to close −0.6%.
-- **10 more illustrated stories** in a 5×2 grid, each with a source and a confidence pill (CONFIRMED / REPORTED / OFFICIAL): Huawei guilty on 10 of 12 counts, 76 hostages freed in Colombia, the US telling citizens to leave Iran, the Hamas security chief killed in Gaza, the Cairo tanker fire, Sudan drone strikes, Macy's 100th parade postponed, 18 years since 26/11, Kim's nuclear vow, and the EU's 22nd Russia sanctions proposal.
-- **BY THE NUMBERS** — 76 hostages freed, 31 killed in Cairo, 10/12 Huawei counts, 60 banks off SWIFT, 3.8% hot PCE, 204 runs off 53 balls.
-- **ALSO — 24 more stories**, one line each.
-- **CLAIMED vs CONFIRMED** honesty box, a small world map with numbered pins for the 13 illustrated stories, a UTC timeline (all 26 Nov), and a **DATE CHECK** naming four stories deliberately left out because they happened earlier (COP31 22 Nov, Huang reinstated 23 Nov, Shenzhou-24 docks 25 Nov, Shanghai party chief Chen probed 24 Nov).
+## How it runs
 
-## How it is built
+`main.ts` (Node 22, stdlib only, no network, no clock, no randomness) copies
+the pre-rendered `entry.png` into `MAKEFUN_OUTPUT_DIR` (or `./out`), after
+validating it is a 1024&times;1024 PNG under 1 MiB, and verifies the copy by
+size and sha256. Running it twice writes byte-identical output.
 
-`main.ts` (Node 22, stdlib only, no network) copies the pre-rendered `entry.png` (1024×1024, ≤1 MiB) into `MAKEFUN_OUTPUT_DIR` (default `out`) and verifies the copy byte-for-byte (size + sha256). Running it twice produces byte-identical output.
+## License
 
-The image was designed in `v3-work/design.html` and rendered with a local Chromium; the design keeps ink coverage at 12.9% and the briefs at a 22.9 px pitch so the page stays legible at ~300 px.
-
-## Sources
-
-Reuters · BBC Russian · AP · Xinhua · ESA · Mediazona · US Dept. of Justice · Sky News
+MIT — see LICENSE.

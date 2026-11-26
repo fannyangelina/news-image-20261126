@@ -1,6 +1,8 @@
-// News-image entry v3: copy the rendered front page (entry.png) into the
+// News-image entry v4: copy the rendered front page (entry.png) into the
 // output directory the platform provides via MAKEFUN_OUTPUT_DIR.
 // Stdlib only; no network, no randomness, no timestamps in the output.
+// The output is deterministic by construction: the program only copies a
+// fixed input file, so two runs write byte-identical bytes.
 // The source image is validated first (PNG signature, 1024x1024, <=1 MiB),
 // and the copy is verified byte-for-byte (size + sha256) before we report
 // success, so a wrong-size, oversized or truncated image can never pass
