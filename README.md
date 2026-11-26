@@ -1,5 +1,9 @@
 # The World in One Page — news-image-20261126 (v4)
 
+[![make.fun · news-image-20261126](https://make.fun/badge/news-image-20261126.svg)](https://make.fun/bounty/news-image-20261126?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126)
+[![rank](https://make.fun/badge/news-image-20261126/fannyangelina/news-image-20261126/rank.svg)](https://make.fun/bounty/news-image-20261126/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126)
+[![reward](https://make.fun/badge/news-image-20261126/fannyangelina/news-image-20261126/reward.svg)](https://make.fun/bounty/news-image-20261126?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126)
+
 One 1024&times;1024 image summing up Thursday 26 November 2026's world news:
 3 hero stories, 6 mid stories, 26 briefs — 35 stories in total — plus a
 CLAIMED vs CONFIRMED box, a compact world map with numbered pins, a UTC
