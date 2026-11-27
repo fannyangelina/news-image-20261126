@@ -1,4 +1,4 @@
-# The World in One Page — news-image-20261126 (v5)
+# The World in One Page — news-image-20261126 (v6)
 
 [![make.fun · news-image-20261126](https://make.fun/badge/news-image-20261126.svg)](https://make.fun/bounty/news-image-20261126?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126)
 [![rank](https://make.fun/badge/news-image-20261126/fannyangelina/news-image-20261126/rank.svg)](https://make.fun/bounty/news-image-20261126/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126)
@@ -6,12 +6,17 @@
 
 One 1024&times;1024 image summing up Thursday 26 November 2026's world news:
 3 hero stories, 6 mid stories, 26 briefs — 35 stories in total — plus a
-CLAIMED vs CONFIRMED box and a sources footer with a region tally that
-sums exactly to 35. v5 is v4 with the proof band (map + UTC timeline) and
-the DATE CHECK removed and the space given back to the stories: taller
-hero art, larger mid icons, airier briefs (29px pitch), ink back under
-13% — the closest layout to v1, our best scorer (dev 98.07%, 12-0-0),
-while keeping v2/v3's corrected facts and stronger mid stories.
+CLAIMED vs CONFIRMED box, a numbered-pin world map, an itemised DATE CHECK,
+and a sources footer with a region tally that sums exactly to 35.
+
+v6 is v1's tight layout (the one that scored dev 98.07%) with v5's verified
+facts, plus the top-5 verification apparatus done without the v3/v4 costs:
+red circled numbers 1&ndash;9 on the 9 illustrated stories, a numbered-pin
+world map, and a DATE CHECK naming the earlier-dated stories left out on
+purpose. No UTC timeline (only one UTC time in the day is verified, and a
+timeline would repeat story facts) and no stats bar (it would repeat
+numbers already on the page). Hero art stays 126px, headlines stay
+20&ndash;29px, no small grid cards, no repeated facts between sections.
 
 ## Facts, verified
 
@@ -23,8 +28,8 @@ while keeping v2/v3's corrected facts and stronger mid stories.
   fraud, Iran sanctions). 76 hostages freed in Cartagena after a 17-hour
   &Eacute;xito siege. US tells citizens to leave Iran now.
 - Left out on purpose (earlier days): COP31 ends with no deal (22 Nov),
-  Huang reinstated as Nvidia CEO (23 Nov), Shenzhou-24 docks (25 Nov),
-  Shanghai party chief Chen probed (24 Nov).
+  Huang reinstated as Nvidia CEO (23 Nov), Chen Jining probed (24 Nov),
+  Shenzhou-24 docks (25 Nov).
 
 ## How it runs
 
