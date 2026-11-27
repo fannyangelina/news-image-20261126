@@ -20,6 +20,8 @@ if (!existsSync(src)) {
 
 const data = readFileSync(src);
 const pngMagic = Buffer.from([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a]);
+// 33 bytes is the smallest a real PNG can be here: the 8-byte signature
+// plus the 25-byte IHDR chunk (4 length + 4 tag + 13 data + 4 CRC).
 const badPng =
   data.length < 33 ||
   !data.subarray(0, 8).equals(pngMagic) ||
