@@ -1,4 +1,4 @@
-# The World in One Page — news-image-20261126 (v4)
+# The World in One Page — news-image-20261126 (v5)
 
 [![make.fun · news-image-20261126](https://make.fun/badge/news-image-20261126.svg)](https://make.fun/bounty/news-image-20261126?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126)
 [![rank](https://make.fun/badge/news-image-20261126/fannyangelina/news-image-20261126/rank.svg)](https://make.fun/bounty/news-image-20261126/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126)
@@ -6,10 +6,12 @@
 
 One 1024&times;1024 image summing up Thursday 26 November 2026's world news:
 3 hero stories, 6 mid stories, 26 briefs — 35 stories in total — plus a
-CLAIMED vs CONFIRMED box, a compact world map with numbered pins, a UTC
-timeline (all entries dated 26 Nov), an itemised DATE CHECK of stories
-deliberately left out because they happened earlier, and a sources footer
-with a region tally that sums exactly to 35.
+CLAIMED vs CONFIRMED box and a sources footer with a region tally that
+sums exactly to 35. v5 is v4 with the proof band (map + UTC timeline) and
+the DATE CHECK removed and the space given back to the stories: taller
+hero art, larger mid icons, airier briefs (29px pitch), ink back under
+13% — the closest layout to v1, our best scorer (dev 98.07%, 12-0-0),
+while keeping v2/v3's corrected facts and stronger mid stories.
 
 ## Facts, verified
 

@@ -1,4 +1,4 @@
-// News-image entry v4: copy the rendered front page (entry.png) into the
+// News-image entry v5: copy the rendered front page (entry.png) into the
 // output directory the platform provides via MAKEFUN_OUTPUT_DIR.
 // Stdlib only; no network, no randomness, no timestamps in the output.
 // The output is deterministic by construction: the program only copies a
